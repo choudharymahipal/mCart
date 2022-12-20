@@ -1,0 +1,248 @@
+[
+    {
+        "ProductID": "101",
+        "ProductName": "Apple iPhone 12",
+        "Color": "Blue",
+        "Brand": "Apple",
+        "Price": 60990,
+        "Rating": 4,
+        "ImageUrl": "./assets/img/iphone12.webp",
+        "DeliveryTime": "tomorrow, December 21",
+        "MoreDetails": [
+            {
+                "Key": "Model Name",
+                "Value": "IPhone 12 128GB Blue"
+            },
+            {
+                "Key": "Operating System",
+                "Value": "IOS 14"
+            },
+            {
+                "Key": "Cellular Technology",
+                "Value": "5G"
+            },
+            {
+                "Key": "Memory Storage Capacity",
+                "Value": "128 GB"
+            }
+        ],
+        "Description": [
+            "6.1-inch (15.5 cm diagonal) Super Retina XDR display",
+            "Ceramic Shield, tougher than any smartphone glass",
+            "A14 Bionic chip, the fastest chip ever in a smartphone",
+            "Advanced dual-camera system with 12MP Ultra Wide and Wide cameras; Night mode, Deep Fusion, Smart HDR 3, 4K Dolby Vision HDR recording",
+            "12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording",
+            "Industry-leading IP68 water resistance",
+            "Supports MagSafe accessories for easy attach and faster wireless charging",
+            "iOS with redesigned widgets on the Home screen, all-new App Library, App Clips and more"
+        ]
+    },
+    {
+        "ProductID": "102",
+        "ProductName": "Apple iPhone 13 (256 GB)",
+        "Color": "Blue",
+        "Brand": "Apple",
+        "Price": 79900,
+        "Rating": 5,
+        "ImageUrl": "./assets/img/iphone13.jpg",
+        "DeliveryTime": "Thursday, December 22",
+        "MoreDetails": [
+            {
+                "Key": "Model Name",
+                "Value": "IPhone 13"
+            },
+            {
+                "Key": "Operating System",
+                "Value": "IOS"
+            },
+            {
+                "Key": "Cellular Technology",
+                "Value": "5G"
+            },
+            {
+                "Key": "Memory Storage Capacity",
+                "Value": "256 GB"
+            }
+        ],
+        "Description": [
+            "15 cm (6.1-inch) Super Retina XDR display",
+            "Cinematic mode adds shallow depth of field and shifts focus automatically in your videos",
+            "Advanced dual-camera system with 12MP Wide and Ultra Wide cameras; Photographic Styles, Smart HDR 4, Night mode, 4K Dolby Vision HDR recording",
+            "12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording",
+            "A15 Bionic chip for lightning-fast performance"
+        ]
+    },
+    {
+        "ProductID": "103",
+        "ProductName": "Apple iPhone 14 (128 GB)",
+        "Color": "Blue",
+        "Brand": "Apple",
+        "Price": 78740,
+        "Rating": 4,
+        "ImageUrl": "./assets/img/iphone14.jpg",
+        "DeliveryTime": "December 22 - 25",
+        "MoreDetails": [
+            {
+                "Key": "Model Name",
+                "Value": "IPhone 14"
+            },
+            {
+                "Key": "Operating System",
+                "Value": "IOS"
+            },
+            {
+                "Key": "Cellular Technology",
+                "Value": "5G"
+            },
+            {
+                "Key": "Memory Storage Capacity",
+                "Value": "128 GB"
+            }
+        ],
+        "Description": [
+            "15.40 cm (6.1-inch) Super Retina XDR display",
+            "Advanced camera system for better photos in any light",
+            "Cinematic mode now in 4K Dolby Vision up to 30 fps",
+            "Action mode for smooth, steady, handheld videos",
+            "Vital safety technology — Crash Detection calls for help when you can’t"
+        ]
+    },
+    {
+        "ProductID": "104",
+        "ProductName": "Apple iPhone 14 Pro (256 GB)",
+        "Color": "Space Black",
+        "Brand": "Apple",
+        "Price": 139900,
+        "Rating": 5,
+        "ImageUrl": "./assets/img/iphone14pro.jpg",
+        "DeliveryTime": " Friday, December 23",
+        "MoreDetails": [
+            {
+                "Key": "Model Name",
+                "Value": "IPhone 14 pro"
+            },
+            {
+                "Key": "Operating System",
+                "Value": "IOS"
+            },
+            {
+                "Key": "Cellular Technology",
+                "Value": "5G"
+            },
+            {
+                "Key": "Memory Storage Capacity",
+                "Value": "256 GB"
+            }
+        ],
+        "Description": [
+            "15.54 cm (6.1-inch) Super Retina XDR display featuring Always-On and ProMotion",
+            "Dynamic Island, a magical new way to interact with iPhone",
+            "48MP Main camera for up to 4x greater resolution",
+            "Cinematic mode now in 4K Dolby Vision up to 30 fps",
+            "Action mode for smooth, steady, handheld videos"
+        ]
+    },
+    {
+        "ProductID": "105",
+        "ProductName": "Apple iPhone 14 Pro Max 128GB",
+        "Color": "Deep Purple",
+        "Brand": "Apple",
+        "Price": 139900,
+        "Rating": 5,
+        "ImageUrl": "./assets/img/iphone14promax.jpg",
+        "DeliveryTime": "December 25 - 30",
+        "MoreDetails": [
+            {
+                "Key": "Model Name",
+                "Value": "IPhone 14 pro max"
+            },
+            {
+                "Key": "Operating System",
+                "Value": "IOS"
+            },
+            {
+                "Key": "Cellular Technology",
+                "Value": "5G"
+            },
+            {
+                "Key": "Memory Storage Capacity",
+                "Value": "128 GB"
+            }
+        ],
+        "Description": [
+            "17.00 cm (6.7-inch) Super Retina XDR display featuring Always-On and ProMotion",
+            "Dynamic Island, a magical new way to interact with iPhone",
+            "48MP Main camera for up to 4x greater resolution",
+            "Cinematic mode now in 4K Dolby Vision up to 30 fps",
+            "Action mode for smooth, steady, handheld videos"
+        ]
+    },
+    {
+        "ProductID": "106",
+        "ProductName": "Samsung Galaxy M04 Dark Blue",
+        "Color": "Dark Blue",
+        "Brand": "Samsung",
+        "Price": 10499,
+        "Rating": 3,
+        "ImageUrl": "./assets/img/samsungm04.jpg",
+        "DeliveryTime": "Tomorrow, December 22",
+        "MoreDetails": [
+            {
+                "Key": "Model Name",
+                "Value": "Samsung M04"
+            },
+            {
+                "Key": "Network Service Provider",
+                "Value": "Unlocked for All Carriers"
+            },
+            {
+                "Key": "Operating System",
+                "Value": "Android 12.0"
+            },
+            {
+                "Key": "Cellular Technology",
+                "Value": "4G"
+            }
+        ],
+        "Description": [
+            "Powerful MediaTek Helio P35 Octa Core 2.3GHz with Android 12,One UI Core 4.1",
+            "13MP+2MP Dual camera setup- True 13MP (F2.2) main camera + 2MP (F2.4) | 5MP (F2.2) front came",
+            "16.55 centimeters (6.5-inch) LCD, HD+ resolution with 720 x 1600 pixels resolution, 269 PPI with 16M color",
+            "5000mAH lithium-ion battery, 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase"
+        ]
+    },
+    {
+        "ProductID": "107",
+        "ProductName": "Samsung Galaxy M32 Prime Edition",
+        "Color": "Light Blue",
+        "Brand": "Samsung",
+        "Price": 12999,
+        "Rating": 4,
+        "ImageUrl": "./assets/img/samsungm32.jpg",
+        "DeliveryTime": "Tomorrow, December 22",
+        "MoreDetails": [
+            {
+                "Key": "Model Name",
+                "Value": "Samsung Galaxy M32 Prime Edition"
+            },
+            {
+                "Key": "Network Service Provider",
+                "Value": "Unlocked for All Carriers"
+            },
+            {
+                "Key": "Operating System",
+                "Value": "Android 12, OneU 4.1"
+            },
+            {
+                "Key": "Cellular Technology",
+                "Value": "4G"
+            }
+        ],
+        "Description": [
+            "Segment Best 16.21 centimeters (6.4-inch) Super AMOLED - Infinity U-cut display, FHD+ resolution with 90Hz Refresh rate, 800 Nits High Brightness Mode, protected by Gorilla Glass 5",
+            "Versatile 64MP+8MP+2MP+2MP Quad camera setup-64MP (F 1.8) main camera + 8MP (F2.2) Ultra wide camera+ 2MP (F2.4) depth camera + 2MP (2.4) Macro Camera| 20MP (F2.2) front camera",
+            "Monster 6000 mAh Battery | Memory, Storage & SIM: 4GB RAM | 64GB internal memory expandable up to 1TB| SIM 1 + SIM 2 + MicroSD",
+            "Android v12.0, One UI 4.1 operating system with MediaTek | Helio G80 Octa Core Processor 2GHz,1.8GHz"
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+<div>
+    <div class="row">
+
+        <!-- Filter -->
+        <div class="col-sm-2 p-3">
+            <app-filter></app-filter>
+        </div>
+
+        <!-- Product Items -->
+        <div class="col-sm-10">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 p-3" *ngFor="let items of productData">
+                    <app-product [items]="items"></app-product>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

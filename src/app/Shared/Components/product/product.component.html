@@ -1,0 +1,18 @@
+<div class="card">
+    <div class="text-center">
+        <img routerLink="/productdescription" style="height: 150px;width:150px;" src="{{items.ImageUrl}}"
+            alt="{{items.ProductName}}" class="card-img-top cursorPointer">
+    </div>
+    <div class="card-body">
+        <h6 class="cursorPointer" style="font-size: 13px;" routerLink="/productdescription">
+            {{items.ProductName}}
+        </h6>
+        <div class="card-text">
+            <app-product-rating [myrating]="items.Rating"></app-product-rating>
+            <h5>{{items.Price | currency:"INR"}}</h5>
+            <label class="deliverTime">Get it by {{items.DeliveryTime}}</label>
+        </div>
+        <a href="#" class="btn btn-warning btn-sm me-2" (click)="addToCart(items.ProductID)">Add to cart</a>
+        <a href="#" class="btn btn-info btn-sm" routerLink="/checkout">Buy now</a>
+    </div>
+</div>
