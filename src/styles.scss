@@ -1,6 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 
+body {
+    background-image: url("./assets/bg.jpg"); //linear-gradient(to bottom right, #3a1c71, #d76d77, #ffaf7b);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+}
+
 .deliverTime {
     font-size: 10px;
     padding-bottom: 5px;
@@ -8,4 +15,17 @@
 
 .cursorPointer {
     cursor: pointer;
+}
+
+//scrollbar
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
 }

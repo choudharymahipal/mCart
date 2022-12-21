@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg sticky-top paddingbottom" style="background-color: #ffc107;">
+<nav class="navbar navbar-expand-lg  paddingbottom"> 
     <div class="container-fluid">
         <a class="navbar-brand myWebLogo" routerLink="/">mCart</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -11,7 +11,7 @@
                     <a href="" class="nav-link active" style="font-weight:500" aria-current="page"
                         routerLink="/">Home</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown" *ngIf="isLoggedIn">
                     <a class="nav-link dropdown-toggle" style="font-weight: 500;" href="#" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Welcome Mahipal
@@ -37,8 +37,8 @@
                     <button class="btn btn-success me-2" type="submit">
                         Search
                     </button>
-                    <!-- <a class="btn btn-danger me-2" routerLink="/login">Login</a> -->
-                    <a class="btn btn-danger me-2">Logout</a>
+                    <a *ngIf="!isLoggedIn" class="btn btn-danger me-2" routerLink="/login">Login</a>
+                    <a *ngIf="isLoggedIn" (click)="logout()" class="btn btn-danger me-2">Logout</a>
                 </form>
             </div>
         </div>

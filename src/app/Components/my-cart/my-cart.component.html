@@ -1,5 +1,32 @@
 <div class="container">
     <div class="row">
-        <p>my-cart works!</p>
+        <p class="text-center fw-light fs-2">You have added {{inMyCart.length}} items in your cart.</p>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-sm-6" *ngFor="let items of productData">
+            <div class="card mb-3 me-2">
+                <div class="row g-0">
+                    <div class="col-md-4 text-center">
+                        <img src="{{items[0].ImageUrl}}" routerLink="/productdescription" style="height:200px"
+                            class="img-fluid rounded-start" alt="{{items[0].ProductName}}">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">{{items[0].ProductName}}</h5>
+                            <div class="card-text">
+                                <app-product-rating [myrating]="items[0].Rating"></app-product-rating>
+                                <h5>{{items[0].Price | currency:"INR"}}</h5>
+                                <label class="deliverTime">Get it by {{items[0].DeliveryTime}}</label>
+                            </div>
+                            <a href="#" class="btn btn-info btn-sm" (click)="buyNow()">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
     </div>
 </div>

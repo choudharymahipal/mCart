@@ -1,5 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { ProductService } from 'src/app/Services/product.service';
+import { UserActivityService } from 'src/app/Services/user-activity.service';
 
 @Component({
   selector: 'app-product',
@@ -9,7 +11,12 @@ import { ProductService } from 'src/app/Services/product.service';
 export class ProductComponent implements OnInit {
   @Input() items!: any;
 
-  constructor(private productSvc: ProductService) { }
+  constructor(
+    private productSvc: ProductService,
+    private router: Router,
+    private userSvc: UserActivityService) {
+
+  }
 
   ngOnInit(): void {
   }
@@ -21,6 +28,16 @@ export class ProductComponent implements OnInit {
     } else {
       //new
       this.productSvc.inMyCart.push(id);
+    }
+  }
+
+  buyNow() {
+    if (this.userSvc.IsUserLoggedIn()) {
+      //user is loggedin
+      this.router.navigateByUrl("/checkout");
+    } else {
+      //user is not loggedin
+      this.router.navigateByUrl("/login");
     }
   }
 

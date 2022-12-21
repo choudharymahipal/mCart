@@ -14,6 +14,8 @@ import { ProductComponent } from './Shared/Components/product/product.component'
 import { ProductRatingComponent } from './Shared/Components/product-rating/product-rating.component';
 import { ProductService } from './Services/product.service';
 import { HttpClientModule } from "@angular/common/http";
+import { UserActivityService } from './Services/user-activity.service';
+import { ReactiveFormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -31,9 +33,10 @@ import { HttpClientModule } from "@angular/common/http";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
-  providers: [ProductService],
+  providers: [ProductService, UserActivityService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

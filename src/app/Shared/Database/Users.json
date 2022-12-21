@@ -1,0 +1,18 @@
+[
+    {
+        "UserId": "101",
+        "Username": "Mahipal",
+        "Email": "mahipal@gmail.com",
+        "Password": "mahipal@123",
+        "Address": "Jodhpur, Rajasthan",
+        "PinCode": "342001"
+    },
+    {
+        "UserId": "102",
+        "Username": "Praveen",
+        "Email": "praveen@gmail.com",
+        "Password": "praveen@123",
+        "Address": "Jaipur, Rajasthan",
+        "PinCode": "352012"
+    }
+]
